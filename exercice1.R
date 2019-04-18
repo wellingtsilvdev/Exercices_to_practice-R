@@ -13,23 +13,23 @@ exercice_1<-function(z)
       while (x==1)
       {
         print("Enter the first number:")
-        primeiro_numero<-scan(n=1)
+        first_number<-scan(n=1)
         print("Enter the second number:")
-        segundo_numero<-scan(n=1)
-        adicao<-sum(primeiro_numero,segundo_numero)
-        cat("The sum of both are:",adicao,"\n")
+        second_number<-scan(n=1)
+        addition<-sum(first_number,second_number)
+        cat("The sum of both are:",addition,"\n")
         
-        if(adicao>20)
+        if(addition>20)
         {
           print("The sum of both are bigger then 20")
-          adicao<-adicao+8
-          cat("The sum of both +8 are:",adicao,"\n")
+          addition<-addition+8
+          cat("The sum of both +8 are:",addition,"\n")
         }
-        if(adicao<=20)
+        if(addition<=20)
         {
           print("The sum of both are less or equal then 20")
-          adicao<-adicao-5
-          cat("The sum of both -5 are:",adicao,"\n")
+          addition<-addition-5
+          cat("The sum of both -5 are:",addition,"\n")
         }
         print("Enter another numbers? YES --> 1, NO --> 0")
         x<-scan(n=1)
