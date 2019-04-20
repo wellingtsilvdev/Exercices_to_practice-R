@@ -4,7 +4,6 @@
 library(data.table)
 library(quantmod)
 library(TTR)
-library(ggplot2)
 
 #import que database
 project<-fread("crypto_trading_project2.csv",header = TRUE,sep=";")
